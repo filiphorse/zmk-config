@@ -1,0 +1,16 @@
+if SHIELD_DATA_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "data"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif # SHIELD_DATA_LEFT
+
+if SHIELD_DATA_LEFT || SHIELD_DATA_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif # SHIELD_DATA_LEFT || SHIELD_DATA_RIGHT

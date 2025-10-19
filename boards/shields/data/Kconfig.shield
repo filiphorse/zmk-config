@@ -1,0 +1,5 @@
+config SHIELD_DATA_LEFT
+    def_bool $(shields_list_contains,data_left)
+
+config SHIELD_DATA_RIGHT
+    def_bool $(shields_list_contains,data_right)
