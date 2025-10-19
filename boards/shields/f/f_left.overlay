@@ -1,0 +1,9 @@
+// boards/shields/f/f_left.overlay
+#include "f.dtsi"
+
+&kscan {
+    // If left uses different pins than right, override here.
+    // Otherwise you can leave empty.
+    // col-gpios = <...>;
+    // row-gpios = <...>;
+};
