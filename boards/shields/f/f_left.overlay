@@ -2,7 +2,7 @@
 // See https://zmk.dev/docs/development/hardware-integration/new-shield for more
 // instructions.
 
-#include "data.dtsi"
+#include "f.dtsi"
 
     kscan: kscan {
         compatible = "zmk,kscan-gpio-matrix";
