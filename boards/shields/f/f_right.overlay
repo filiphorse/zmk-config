@@ -1,9 +1,12 @@
-// boards/shields/f/f_left.overlay
+// boards/shields/f/f_right.overlay
 #include "f.dtsi"
 
+/ {
+    // Optional: right-specific physical layout choice
+    // chosen { zmk,physical-layout = &default_layout; };
+};
+
 &kscan {
-    // If left uses different pins than right, override here.
-    // Otherwise you can leave empty.
-    // col-gpios = <...>;
-    // row-gpios = <...>;
+    // Only add overrides if the right half differs from f.dtsi.
+    // Example: leave empty to inherit everything from f.dtsi.
 };
