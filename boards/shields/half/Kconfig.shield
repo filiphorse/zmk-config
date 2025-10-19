@@ -1,0 +1,2 @@
+config SHIELD_HALF
+    def_bool $(shields_list_contains,half)
