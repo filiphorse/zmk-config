@@ -2,7 +2,8 @@
 // See https://zmk.dev/docs/development/hardware-integration/new-shield for more
 // instructions.
 
-#include "f.dtsi"
+#include "v2.dtsi"
+
 
 &kscan {
     // Replace these comments with the GPIO pins in the matrix for the left side.
