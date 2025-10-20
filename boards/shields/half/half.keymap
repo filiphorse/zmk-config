@@ -5,6 +5,13 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+behaviors {
+        bootloader: bootloader {
+            compatible = "zmk,behavior-reset";
+            label = "BOOTLOADER";
+            restart_to_bootloader = <1>;
+        };
+    };
     // Define a default keymap here.
     // See https://zmk.dev/docs/development/hardware-integration/new-shield#default-keymap.
 keymap {
