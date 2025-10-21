@@ -27,3 +27,5 @@ include:
 
   - board: nice_nano_v2
     shield: f_dactyl_right
+  - board: nice_nano_v2
+    shield: settings_reset
