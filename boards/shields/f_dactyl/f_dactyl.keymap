@@ -12,7 +12,7 @@
    default_layer {
             bindings = <
                 // Row 0 (shifted left; last col gets P)
-                &kp ESC   &kp Q     &kp W     &kp E     &kp R     &kp T     &kp Y     &kp U     &kp I     &kp P
+                &kp ESC   &kp Q     &kp W     &kp E     &kp R     &kp K     &kp K     &kp K     &kp K     &kp K
 
                 // Row 1 (shifted left; last col gets SEMI)
                 &kp TAB   &kp A     &kp S     &kp D     &kp F     &kp G     &kp H     &kp J     &kp K     &kp SEMI
