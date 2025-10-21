@@ -1,0 +1,31 @@
+// This file was generated from a template. Edit it to match your keyboard.
+// See https://zmk.dev/docs/development/hardware-integration/new-shield for more instructions.
+
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+
+/ {
+    // Define a default keymap here.
+    // See https://zmk.dev/docs/development/hardware-integration/new-shield#default-keymap.
+    keymap {
+        compatible = "zmk,keymap";
+   default_layer {
+            bindings = <
+                // Row 0 (shifted left; last col gets P)
+                &kp ESC   &kp Q     &kp W     &kp E     &kp R     &kp T     &kp Y     &kp U     &kp I     &kp P
+
+                // Row 1 (shifted left; last col gets SEMI)
+                &kp TAB   &kp A     &kp S     &kp D     &kp F     &kp G     &kp H     &kp J     &kp K     &kp SEMI
+
+                // Row 2 (shifted left; last col gets SLASH)
+                &kp LCTRL &kp Z     &kp X     &kp C     &kp V     &kp B     &kp N     &kp M     &kp COMMA &kp SLASH
+
+                // Row 3 (cols 2–7 present)
+                          &bootloader  &kp LALT  &kp SPACE   &kp SPACE   &kp RALT   &bootloader
+
+                // Row 4 (cols 3–6 present)
+                                     &kp LSHIFT  &kp BSPC    &kp ENTER   &kp RSHIFT
+            >;
+        };
+   };
+};

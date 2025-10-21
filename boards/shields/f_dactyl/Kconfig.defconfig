@@ -1,0 +1,16 @@
+if SHIELD_F_DACTYL_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "f-dactyl"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif # SHIELD_F_DACTYL_LEFT
+
+if SHIELD_F_DACTYL_LEFT || SHIELD_F_DACTYL_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif # SHIELD_F_DACTYL_LEFT || SHIELD_F_DACTYL_RIGHT
