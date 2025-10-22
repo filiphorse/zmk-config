@@ -17,10 +17,27 @@
                 &kp Z       &kp X       &kp C       &kp V       &kp B       &kp N       &kp M       &kp COMMA   &kp DOT     &kp SLASH
                 // Row 3 (cols 2–7 exist)
 
+                &kp Q       &kp Q       &kp Q       &kp BACKSPACE       &kp RETURN       &mo 1       
+
+                &kp ESC       &bootloader       &bootloader  &kp N1
+            >;
+        };
+        numbers {
+            bindings = <
+                // Row 0: [Q W E R T | Y U I O P]
+                &kp Q       &kp W       &kp E       &kp R       &kp T       &kp Y       &kp N1       &kp N2       &kp N3       &none
+                // Row 1: [A S D F G | H J K L ;]
+                &kp A       &kp S       &kp D       &kp F       &kp G       &kp N0       &kp N4       &kp N5       &kp N6    &kp SEMI 
+  
+                       // Row 2: [Z X C V B | N M , . /]
+                &kp Z       &kp X       &kp C       &kp V       &kp B       &kp N       &kp N7       &kp N8   &kp N9     &kp SLASH
+                // Row 3 (cols 2–7 exist)
+
                 &kp Q       &kp Q       &kp Q       &kp BACKSPACE       &kp RETURN       &kp Y       
 
                 &kp ESC       &bootloader       &bootloader  &kp N1
             >;
         };
+
    };
 };
