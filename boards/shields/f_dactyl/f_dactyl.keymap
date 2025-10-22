@@ -19,7 +19,7 @@
 
                 &kp Q       &kp SPACE       &kp LSHIFT       &kp BACKSPACE       &kp RETURN       &mo 1       
 
-                &kp ESC       &bootloader       &bootloader  &kp N1
+                &mt LCTRL ESC       &bootloader       &bootloader  &kp N1
             >;
         };
         numbers {
