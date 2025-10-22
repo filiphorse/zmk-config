@@ -22,7 +22,8 @@
         // GPIO_ACTIVE_HIGH.
         diode-direction = "row2col";
         wakeup-source;
-
+ debounce-press-ms = <10>;
+    debounce-release-ms = <10>;
         // Replace these comments with the GPIO pins in the matrix.
         // See https://zmk.dev/docs/development/hardware-integration/new-shield#shield-overlays
 
