@@ -17,10 +17,11 @@
                 &kp Z       &kp X       &kp C       &kp V       &kp B       &kp N       &kp M       &kp COMMA   &kp DOT     &kp SLASH
                 // Row 3 (cols 2–7 exist)
 
-                &kp Q       &kp SPACE       &kp LSHIFT       &kp BACKSPACE       &kp RETURN       &kp Y       
+                &kp Q       &kp SPACE       &kp LSHIFT       &kp BACKSPACE       &kp Y       &kp Y       
 
                 &kp ESC       &bootloader       &bootloader  &kp N1
             >;
         };
+						
    };
 };
