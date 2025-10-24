@@ -19,7 +19,7 @@
 
                 &kp Q       &kp SPACE       &kp LSHIFT       &kp BACKSPACE       &kp RETURN       &mo 1       
 
-                &mt LCTRL ESC       &bootloader       &bootloader  &kp N1
+                &mt LCTRL ESC       &kp SPACE       &kp SPACE &kp N1
             >;
         };
         numbers {
@@ -35,9 +35,22 @@
 
                 &kp Q       &kp Q       &kp Q       &kp BACKSPACE       &kp RETURN       &kp Y       
 
-                &kp ESC       &bootloader       &bootloader  &kp N1
+                &kp ESC       &bootloader       &bootloader  &to 2
             >;
         };
+        davin {
+            bindings = <
+								&trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    
+								&trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    
+								&trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    
+                // Row 3 (cols 2–7 exist)
+
+                &kp LSHIFT       &kp LALT       &kp LCMD       &kp BACKSPACE       &kp RETURN       &kp Y       
+
+                &kp LCTRL       &to 0       &bootloader  &kp N1
+            >;
+        };
+
 
    };
 };
