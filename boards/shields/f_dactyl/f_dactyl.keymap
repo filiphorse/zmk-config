@@ -36,7 +36,7 @@
                 &kp Q       &kp Q       &kp Q       &kp BACKSPACE       &kp RETURN       &kp Y       
 
                 &kp ESC       &bootloader       &bootloader  &to 2
-            >;
+						>;
         };
         davin {
             bindings = <
@@ -45,7 +45,7 @@
 								&trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    
                 // Row 3 (cols 2–7 exist)
 
-                &kp LSHIFT       &kp LALT       &kp LCMD       &kp BACKSPACE       &kp RETURN       &kp Y       
+                &kp LSHIFT       &mt LALT SPACE      &kp LCMD       &kp BACKSPACE       &kp RETURN       &kp Y       
 
                 &kp LCTRL       &to 0       &bootloader  &kp N1
             >;
