@@ -24,7 +24,7 @@
                 &kp Z       &kp X       &kp C       &kp V       &kp B       &kp N       &kp M       &kp COMMA   &kp DOT     &kp SLASH
                 // Row 3 (cols 2–7 exist)
 
-                &mt LCTRL ESC &kp SPACE         &mo NAV    &mt LCTRL BACKSPACE       &kp RETURN       &to BRACK       
+                &lt NAV ESC &kp SPACE         &kp LSHIFT    &mt LCTRL BACKSPACE       &kp RETURN       &to BRACK       
 
                 &mt LCTRL ESC       &kp SPACE       &kp SPACE &kp N1
             >;
