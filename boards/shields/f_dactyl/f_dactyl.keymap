@@ -1,6 +1,11 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
+
+#define BASE 0
+#define BRACK   1
+#define NUM   2
+#define VINCI   2
 / {
     keymap {
         compatible = "zmk,keymap";
