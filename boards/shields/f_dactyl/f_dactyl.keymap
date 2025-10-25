@@ -70,10 +70,10 @@
                 // Row 0: [Q W E R T | Y U I O P]
                 &kp F14       &kp F15       &kp F16       &kp F17       &kp F18       &kp Y       &kp U       &kp I       &kp UP       &kp P
                 // Row 1: [A S D F G | H J K L ;]
-                &kp LGUI(A)       &kp F1       &kp F2       &kp F3       &kp LGUI(SPACE)       &kp HOME       &kp LEFT       &kp DOWN       &kp RIGHT    &kp END 
+                &kp LG(A)       &kp F1       &kp F2       &kp F3       &kp LG(SPACE)       &kp HOME       &kp LEFT       &kp DOWN       &kp RIGHT    &kp END 
   
                        // Row 2: [Z X C V B | N M , . /]
-                &kp LGUI(Z)       &kp LGUI(X)       &kp LGUI(C)       &kp LGUI(V)       &kp B       &kp N       &kp M       &kp COMMA   &kp DOT     &kp SLASH
+                &kp LG(Z)       &kp LG(X)       &kp LG(C)       &kp LG(V)       &kp B       &kp N       &kp M       &kp COMMA   &kp DOT     &kp SLASH
                 // Row 3 (cols 2–7 exist)
 
                 &none       &kp SPACE       &mt LSHIFT ESC      &mt LCTRL BACKSPACE       &kp RETURN       &to BRACK       
