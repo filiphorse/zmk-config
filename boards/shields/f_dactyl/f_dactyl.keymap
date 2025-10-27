@@ -73,7 +73,7 @@
 								 
         &kp LG(Z)     &kp LG(X)     &kp LG(C)     &kp LG(V)     &kp B         &kp N      &kp M       &kp COMMA      &kp DOT       &kp SLASH
 
-        &none         &kp SPACE     &mt LSHIFT ESC      &mt LCTRL BACKSPACE       &kp RETURN       &to MOUSE
+        &none         &kp SPACE     &mt LSHIFT ESC      &mt LCTRL BACKSPACE       &kp RETURN       &tog MOUSE
 								
         &mt LCTRL ESC &kp SPACE     &kp SPACE     &kp N1
       >;
