@@ -1,12 +1,13 @@
-#include <behaviors.dtsi>
-#include <dt-bindings/zmk/keys.h>
+		#include <behaviors.dtsi>
+		#include <dt-bindings/zmk/keys.h>
 
 
 #define BASE 0
 #define BRACK   1
 #define NUM   2
 #define NAV   3
-#define VINCI   4
+#define MOUSE   4
+#define VINCI   5
 / {
     keymap {
         compatible = "zmk,keymap";
@@ -59,7 +60,7 @@
                 &none       &kp AMPS       &kp STAR      &kp QMARK       &kp GRAVE       &kp DOT       &kp N7       &kp N8   &kp N9     &kp PIPE 
                 // Row 3 (cols 2–7 exist)
 
-                &to BASE       &kp Q       &kp Q       &kp BACKSPACE       &kp RETURN       &to BRACK       
+                &to BASE       &none       &none       &kp BACKSPACE       &kp RETURN       &trans       
 
                 &none       &bootloader       &bootloader  &none
 						>;
@@ -68,19 +69,36 @@
 		label = "NAV";
             bindings = <
                 // Row 0: [Q W E R T | Y U I O P]
-                &kp F14       &kp F15       &kp F16       &kp F17       &kp F18       &kp Y       &kp U       &kp I       &kp UP       &kp P
+                &kp F14       &kp F15       &kp F16       &kp F17       &kp F18       &kp Y       &kp U       &kp HOME       &kp END       &kp P
                 // Row 1: [A S D F G | H J K L ;]
-                &kp LG(A)       &kp F1       &kp F2       &kp F3       &kp LG(SPACE)       &kp HOME       &kp LEFT       &kp DOWN       &kp RIGHT    &kp END 
+                &kp LG(A)       &kp F1       &kp F2       &kp F3       &kp LG(SPACE)       &kp LEFT       &kp DOWN       &kp UP       &kp RIGHT    &kp END 
   
                        // Row 2: [Z X C V B | N M , . /]
                 &kp LG(Z)       &kp LG(X)       &kp LG(C)       &kp LG(V)       &kp B       &kp N       &kp M       &kp COMMA   &kp DOT     &kp SLASH
                 // Row 3 (cols 2–7 exist)
 
-                &none       &kp SPACE       &mt LSHIFT ESC      &mt LCTRL BACKSPACE       &kp RETURN       &to BRACK       
+                &none       &kp SPACE       &mt LSHIFT ESC      &mt LCTRL BACKSPACE       &kp RETURN       &to MOUSE       
 
                 &mt LCTRL ESC       &kp SPACE       &kp SPACE &kp N1
             >;
         };
+		mouse {
+    label = "MOUSE";
+    bindings = <
+        // Row 0: [Q W E R T | Y U I O P]
+        &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans
+        // Row 1: [A S D F G | H J K L ;]
+        &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans
+
+        // Row 2: [Z X C V B | N M , . /]
+        &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans
+        // Row 3 (cols 2–7 exist)
+
+        &trans     &trans     &trans     &trans     &trans     &trans
+
+        &trans     &trans     &trans     &trans
+    >;
+};
         davin {
 						    label = "VINCI";
             bindings = <
