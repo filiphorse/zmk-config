@@ -15,17 +15,18 @@
   keymap {
     compatible = "zmk,keymap";
 
+    //finished
     default_layer {
       label = "BASE";
       bindings = <
 								
-        &kp Q       &kp W       &kp E       &kp R       &kp T       &kp Y       &kp U       &kp I       &kp O       &kp P
+        &mt TAB Q       &kp W       &kp E       &kp R       &kp T       &kp Y       &kp U       &kp I       &kp O       &kp P
 
         &kp A       &kp S       &kp D       &kp F       &kp G       &kp H       &kp J       &kp K       &kp L       &mt COLON SEMI
 
         &kp Z       &kp X       &kp C       &kp V       &kp B       &kp N       &kp M       &kp COMMA   &kp DOT     &mt QMARK SLASH
 
-        &lt NAV ESC &kp SPACE   &kp LSHIFT  &mt LCTRL BACKSPACE   &kp RETURN   &mo BRACK
+        &lt NAV ESC &mt LCTRL SPACE   &kp LSHIFT  &kp BACKSPACE   &kp RETURN   &mo BRACK
 
         &none       &kp SPACE       &kp SPACE &kp N1
       >;
@@ -39,7 +40,7 @@
 
         &kp UNDERSCORE  &kp DOLLAR     &kp PERCENT  &kp CARET      &kp SINGLE_QUOTE        &kp LESS_THAN  &kp GREATER_THAN &kp LEFT_BRACE             &kp RIGHT_BRACE            &kp MINUS
 
-        &none           &kp AMPS       &kp STAR     &kp QMARK      &kp GRAVE               &kp MINUS      &kp SLASH        &kp LEFT_BRACKET           &kp RIGHT_BRACKET          &none
+        &trans           &kp AMPS       &kp STAR     &kp QMARK      &kp GRAVE               &kp MINUS      &kp SLASH        &kp LEFT_BRACKET           &kp RIGHT_BRACKET         &trans
 
         &mo NUM         &kp SPACE      &kp LCMD     &kp BACKSPACE  &kp RETURN              &none
 								
@@ -47,15 +48,16 @@
       >;
     };
 
+   //left side needs doing
     numbers {
       label = "NUM";
       bindings = <
 
-        &kp TILDE       &kp EXCL       &kp AT       &kp HASH       &kp DOUBLE_QUOTES       &kp DOT       &kp N1       &kp N2       &kp N3       &none
+        &kp TILDE       &kp EXCL       &kp AT       &kp HASH       &kp DOUBLE_QUOTES       &kp DOT       &kp N1       &kp N2       &kp N3       &trans
 
         &kp UNDERSCORE  &kp DOLLAR     &kp PERCENT  &kp CARET      &kp SINGLE_QUOTE        &kp N0        &kp N4       &kp N5       &kp N6       &kp MINUS
 
-        &none           &kp AMPS       &kp STAR     &kp QMARK      &kp GRAVE               &kp DOT       &kp N7       &kp N8       &kp N9       &kp PIPE
+        &trans           &kp AMPS       &kp STAR     &kp QMARK      &kp GRAVE               &kp DOT       &kp N7       &kp N8       &kp N9       &kp PIPE
 
         &to BASE        &none          &none        &kp BACKSPACE  &kp RETURN              &trans
 
@@ -63,6 +65,7 @@
       >;
     };
 
+//right side can have more
     navigation {
       label = "NAV";
       bindings = <
