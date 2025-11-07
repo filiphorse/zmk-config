@@ -48,7 +48,7 @@
 
                 &kp TILDE          &kp AMPS        &kp STAR        &kp QMARK       &kp GRAVE          &kp MINUS      &kp SLASH      &kp LEFT_BRACKET     &kp RIGHT_BRACKET     &trans
 
-                                   &kp TILDE       &kp SPACE       &kp LCMD        &kp BACKSPACE      &kp RETURN     &none
+                                   &mo NUM       &kp SPACE       &kp LCMD        &kp BACKSPACE      &kp RETURN     &none
 
                                                    &bt BT_CLR_ALL  &bootloader     &bootloader     &to VINCI
             >;
