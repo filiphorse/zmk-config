@@ -17,7 +17,7 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&kp LSHIFT>, <&kp LC(J)>;
+            bindings = <&lt NAV ESC >, <&kp LC(J)>;
         };
     };
 
@@ -33,7 +33,7 @@
 
                 &kp Z              &kp X           &kp C           &kp V           &kp B           &kp N           &kp M           &kp COMMA       &kp DOT         &mt QMARK SLASH
 
-                                   &lt NAV ESC     &mt LCTRL SPACE &td0            &kp BACKSPACE   &kp RETURN      &mo BRACK
+                                   &td0            &mt LCTRL SPACE &kp LSHIFT      &kp BACKSPACE   &kp RETURN      &mo BRACK
 
                                                    &none           &none           &none           &none
             >;
